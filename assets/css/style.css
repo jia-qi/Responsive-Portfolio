@@ -81,7 +81,7 @@ nav a {
 	padding-left: 15px;
 	line-height: 18px;
 }
-nav a:first-child { /* what is first-child?*/
+nav a:first-child { /* what is first-child?*/ /* good question! it means the first a tag in the nav */
 	border-left: 0 none;
 }
 
@@ -225,7 +225,7 @@ then remove container*/
  }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px){ /* when you write a media query, you want to be specific about your screen range. for example, this should say @media (min-width: 640px) and (max-width: 768px). If you're having trouble getting the media queries to work, this is probably why.*/
   .container{
   width:auto;
   }
@@ -234,8 +234,8 @@ then remove container*/
 @media screen and (max-width: 640px){
 
   .container{
-  float:inherit; /* goes down to 1 column at 640px*/
+  float:inherit; /* goes down to 1 column at 640px*/ /* this is true, but the float still makes the elements with float float, when they should be centered */
   width:auto;
-  width:100%;
+  width:100%; /* why do you have two widths? Which one actually works? */
   }
 }
