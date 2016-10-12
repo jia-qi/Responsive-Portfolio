@@ -225,7 +225,7 @@ then remove container*/
  }
 }
 
-@media screen and (max-width: 768px){ /* when you write a media query, you want to be specific about your screen range. for example, this should say @media (min-width: 640px) and (max-width: 768px). If you're having trouble getting the media queries to work, this is probably why.*/
+@media screen and (max-width: 768px){ /* when you write a media query, you want to be specific about your screen range. for example, this should say @media (min-width: 640px) and (max-width: 768px). If you're having trouble getting the media queries to work, this is probably why. See me for a review!*/
   .container{
   width:auto;
   }
